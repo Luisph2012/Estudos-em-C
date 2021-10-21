@@ -7,15 +7,16 @@ int main(){
 	int n = 1;  //variaveis
 	int years;
 	
-	printf ("Digite o número de anos para quitar a casa: "); //escreva com captura de dados
+	printf ("Digite o nÃºmero de anos para quitar a casa: "); //escreva com captura de dados
 	scanf ("%d", &years);
 	
 	
 	while (n <= (years*12)){ //while para repetir 
 		
-		printf ("\nA prestação nº %d foi paga com sucesso.\n", n); //print com %d para chamar a variavel
+		printf ("\nA prestaÃ§Ã£o nÂº %d foi paga com sucesso.\n", n); //print com %d para chamar a variavel
 		n++;
 	}
 	system("pause"); //pausar a operacao sem fechar
 	
 }
+//sudo /etc/init.d/xrdp start
